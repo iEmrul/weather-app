@@ -1,0 +1,64 @@
+body {
+  margin: 0 auto;
+  background: rgb(64, 65, 58);
+  background-size: cover;
+  background-position: center center;
+  background-attachment:fixed;
+}
+.quoteBox{
+  background-color: rgb(64, 65, 65);
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  margin:auto;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 50px;
+  min-height: 500px;
+  min-width:500px;
+  font-family: 'Yanone Kaffeesatz', serif;
+  color: white;
+}
+#logo{
+  text-align:right;
+  border-right: 3px solid white;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+
+#city{
+  text-align:center;
+  padding-top: 20px;
+  border-top: 2px solid white;
+  text-shadow: 2px 2px black;
+  
+}
+
+#temp{
+  text-align:center;
+  padding-top: 10px;
+  font-size: 4em;
+}
+#image{
+  text-align:center;
+  padding-top: 10px;
+  font-size: 40px;
+}
+#description{
+  font-size:1.5em;
+  text-align:Center;
+}
+#btn1{
+  background-color:rgb(35, 56, 58);
+  color:white;
+}
+#btn1:hover{
+  background-color:rgb(42, 92, 96);
+  color:white;
+}
+#toggle{
+  text-align:center;
+}
